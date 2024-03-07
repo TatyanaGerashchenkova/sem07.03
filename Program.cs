@@ -26,14 +26,14 @@
 // 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
 // 2 => -2, -1, 0, 1, 2
 
-// System.Console.WriteLine("Input N: ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// int count = -n;
-// while(count <= n)
-// {
-//     System.Console.WriteLine(count + " ");
-//     count++;
-// }
+System.Console.WriteLine("Input N: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int count = -n;
+while(count <= n)
+{
+    System.Console.WriteLine(count + " ");
+    count++;
+}
 
 // Напишите программу, которая принимает на вход
 // трёхзначное целое число и на выходе показывает сумму
